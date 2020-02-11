@@ -1,0 +1,8 @@
+version: '3.7'
+services:
+ silamApp:
+  build: .
+  image:  silamweb:v1
+  container_name: silameyappc1
+  ports:
+   - "8500:80"
